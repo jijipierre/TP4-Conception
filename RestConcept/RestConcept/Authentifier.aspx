@@ -37,8 +37,9 @@
         BackColor="Tomato" BorderStyle="Double" ForeColor="White" Height="45px" ViewStateMode="Enabled"/>
        <br />
        <br />
-    <asp:Label ID="lblMsg" runat="server" Text="Pour s'incrire, entrez avec sa compte Google." Font-Italic="True" Font-Size="Smaller"></asp:Label>
-        <br />
+    <asp:Label ID="lblMsg" runat="server" Text="Pour s'incrire, entrez avec sa compte Google." 
+        Font-Italic="True" Font-Size="Medium"></asp:Label>
+        
          </div>
          
   </asp:Panel>
