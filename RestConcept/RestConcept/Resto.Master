@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Resto.master.cs" Inherits="RestConcept.Resto" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="Titre" runat="server"> titre page</asp:ContentPlaceHolder></title>
+    
+    <link href="App_Themes/Themes/main.css" rel="stylesheet" type="text/css" />
+    <link href="App_Themes/Themes/gallery.theme.css" rel="stylesheet" />
+    <link href="App_Themes/Themes/gallery.css" rel="stylesheet" />
+    <link href="App_Themes/Themes/gallery.min.css" rel="stylesheet" />
+    <link href="App_Themes/Themes/gallery.prefixed.css" rel="stylesheet" />
+    <link href="App_Themes/Themes/gallery.prefixed.min.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <form id="formConcept" runat="server" >
+        <div id="content">
+            <div class="titre">
+                  <h3>Concept Restaurant ...</h3>
+              </div>
+            <header id="cabecalho" class="gallery">
+                    <div class="gallery autoplay items-3">
+                        <div id="item-1" class="control-operator"></div>
+                        <div id="item-2" class="control-operator"></div>
+                        <div id="item-3" class="control-operator"></div>
+                        
+                        <figure class="item">
+                        <img src="App_Themes/images/cesar.jpg" alt="SaladeCesar" />
+                        </figure>
+
+                        <figure class="item">
+                        <img src="App_Themes/images/poutine.jpg" alt="Poutine" />
+                        </figure>
+
+                        <figure class="item">
+                        <img src="App_Themes/images/salmao.jpg" alt="Salmao" />
+                        </figure>
+
+                        <div class="controls">
+                            <a href="#item-1" class="control-button">.</a>
+                            <a href="#item-2" class="control-button">.</a>
+                            <a href="#item-3" class="control-button">.</a>
+                        </div>
+                    </div>                   
+                </header>
+            <section>
+                <nav id="menuBar" > 
+               <asp:ContentPlaceHolder ID="ContentPlaceHolder_MenuBar" runat="server"> </asp:ContentPlaceHolder>
+               </nav>
+                <div id="colunacenter">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder_Center" runat="server"> center </asp:ContentPlaceHolder>
+                </div>
+                <div id="rodape"><p><i>"... bienvenue au plaisir de bien manger!"</i></p></div>   
+            </section>
+        </div>            
+     </form>
+</body>
+</html>
