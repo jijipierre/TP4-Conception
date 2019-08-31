@@ -13,5 +13,35 @@ namespace RestConcept
         {
 
         }
+
+        protected void DropDownListCreerSurcusales_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnAjouterPanier_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void grdCreerCom_ResumeAchats_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void lnkHomeCreerCom_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Home.aspx");
+        }
+
+        protected void lnkCommandesCreerCom_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Commandes.aspx");
+        }
+
+        protected void lnkMenuCreerCom_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Menu.aspx");
+        }
     }
 }

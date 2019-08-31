@@ -24,5 +24,10 @@ namespace RestConcept
         {
             Response.Redirect("EtatCommande.aspx");
         }
+
+        protected void lnkComAjouter_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("CreerCommande.aspx");
+        }
     }
 }

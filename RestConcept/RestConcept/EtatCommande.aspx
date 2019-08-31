@@ -6,6 +6,8 @@
     <asp:LinkButton ID="lnkCommandesEtCom" runat="server" CssClass="menubutton" >Commandes</asp:LinkButton>     
     <asp:LinkButton ID="lnkClientsEtCom" runat="server" CssClass="menubutton" >Clients</asp:LinkButton>
     <asp:LinkButton ID="lnkContactEtCom" runat="server" CssClass="menubutton" OnClick="lnkContactEtCom_Click" >Contact-nous</asp:LinkButton>
+     <asp:LinqDataSource ID="LinqDataSource1" runat="server">
+     </asp:LinqDataSource>
 </asp:Content>
 
 
@@ -26,6 +28,7 @@
        <asp:ListBox ID="listCommandes" runat="server" Height="300px" Width="550px"></asp:ListBox>
        <br />
        <br />
+       
        <asp:Button ID="btnAccepterCommandes" runat="server" Text="Accepter" CssClass="button" ForeColor="White" BackColor="#006600"   />
        <asp:Button ID="btnRefuserCommandes" runat="server" Text="Refuser" CssClass="button" ForeColor="White" BackColor="Tomato"  />
 <br />

@@ -10,7 +10,6 @@
     <asp:LinkButton ID="lnkHomeMenu" runat="server" CssClass="menubutton" OnClick="lnkHomeMenu_Click" >Menu</asp:LinkButton>
     <asp:LinkButton ID="lnkHomeCommandes" runat="server" CssClass="menubutton" OnClick="lnkHomeCommandes_Click" >Commandes</asp:LinkButton>     
    
-    <asp:LinkButton ID="lnkHomeContact" runat="server" CssClass="menubutton" OnClick="lnkHomeContact_Click" >Contact-nous</asp:LinkButton>
 
 </asp:Content>
 

@@ -3,7 +3,9 @@
     ConceptResto - Menu
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_MenuBar" runat="server">
+    
     <asp:LinkButton ID="lnkMenuHome" runat="server" CssClass="menubutton" OnClick="lnkMenuHome_Click" >Home</asp:LinkButton>
+    <asp:LinkButton ID="lnkMenuDisponibles" runat="server" CssClass="menubutton">Menus disponibles</asp:LinkButton>
     <asp:LinkButton ID="lnkMenuAjouter" runat="server" CssClass="menubutton" OnClick="lnkMenuAjouter_Click" >Creer menu</asp:LinkButton>
     <asp:LinkButton ID="lnkMenuModifier" runat="server" CssClass="menubutton" >Modifier menu</asp:LinkButton>
 </asp:Content>

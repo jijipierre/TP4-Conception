@@ -83,6 +83,7 @@
     <Content Include="Clients.aspx" />
     <Content Include="Commandes.aspx" />
     <Content Include="Contact-nous.aspx" />
+    <Content Include="CreerCommande.aspx" />
     <Content Include="EtatCommande.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Menu.aspx" />
@@ -132,6 +133,13 @@
     </Compile>
     <Compile Include="Contact-nous.aspx.designer.cs">
       <DependentUpon>Contact-nous.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreerCommande.aspx.cs">
+      <DependentUpon>CreerCommande.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreerCommande.aspx.designer.cs">
+      <DependentUpon>CreerCommande.aspx</DependentUpon>
     </Compile>
     <Compile Include="EtatCommande.aspx.cs">
       <DependentUpon>EtatCommande.aspx</DependentUpon>
